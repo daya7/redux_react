@@ -7,6 +7,8 @@ import CompHook from './components/CompHook.jsx';
 
 import store from './redux/store.js'
 import {Provider} from 'react-redux';
+import BuscadorPok from './components/BuscadorPok';
+import ResultPok from './components/ResultPok';
 function App() {
     
   return (
@@ -36,6 +38,8 @@ function App() {
 
           </div>
         </div>
+        <div className="col-12 mt-4 border-top pt-3"> <BuscadorPok/> </div>
+        <div className="col-12"> <ResultPok/> </div>
       </div>
       
     </div>
